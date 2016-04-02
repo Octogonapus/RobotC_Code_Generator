@@ -1,0 +1,12 @@
+//START AUTO GENERATED MACROS
+#define setAllLeftDriveMotors(power) setMotorSpeed(leftDriveBottomFront, power); setMotorSpeed(leftDriveBottomBack, power); setMotorSpeed(leftDrivePerma, power); setMotorSpeed(leftDriveTopBack, power)
+#define setAllLeftDriveMotorsRaw(power) motor[leftDriveBottomFront] = power; motor[leftDriveBottomBack] = power; motor[leftDrivePerma] = power; motor[leftDriveTopBack] = power
+#define setAllRightDriveMotors(power) setMotorSpeed(rightDriveBottomFront, power); setMotorSpeed(rightDriveBottomBack, power); setMotorSpeed(rightDrivePerma, power); setMotorSpeed(rightDriveTopBack, power)
+#define setAllRightDriveMotorsRaw(power) motor[rightDriveBottomFront] = power; motor[rightDriveBottomBack] = power; motor[rightDrivePerma] = power; motor[rightDriveTopBack] = power
+#define setAllDriveMotors(power) setMotorSpeed(leftDriveBottomFront, power); setMotorSpeed(leftDriveBottomBack, power); setMotorSpeed(leftDrivePerma, power); setMotorSpeed(leftDriveTopBack, power); setMotorSpeed(rightDriveBottomFront, power); setMotorSpeed(rightDriveBottomBack, power); setMotorSpeed(rightDrivePerma, power); setMotorSpeed(rightDriveTopBack, power)
+#define setAllDriveMotorsRaw(power) motor[rightDriveBottomFront] = power; motor[rightDriveBottomBack] = power; motor[rightDrivePerma] = power; motor[rightDriveTopBack] = power
+#define setAllIntakeMotors(power) setMotorSpeed(rightDriveBottomFront, power); setMotorSpeed(rightDriveBottomBack, power); setMotorSpeed(rightDrivePerma, power); setMotorSpeed(rightDriveTopBack, power)
+#define setAllIntakeMotorsRaw(power) motor[rightDriveBottomFront] = power; motor[rightDriveBottomBack] = power; motor[rightDrivePerma] = power; motor[rightDriveTopBack] = power
+#define setAllLauncherMotors(power) setMotorSpeed(leftDriveBottomFront, power); setMotorSpeed(leftDriveBottomBack, power); setMotorSpeed(leftDrivePerma, power); setMotorSpeed(leftDriveTopBack, power)
+#define setAllLauncherMotorsRaw(power) motor[leftDriveBottomFront] = power; motor[leftDriveBottomBack] = power; motor[leftDrivePerma] = power; motor[leftDriveTopBack] = power
+//END AUTO GENERATED MACROS
